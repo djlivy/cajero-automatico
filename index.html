@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cajero automatico</title>
+    <script src="script.js"></script>
+</head>
+<body id="">
+    <header id="headeriniciologin">
+        <label class="label" for="textlogeo">ingrese su usuario</label><input type="text" id="textlogeo"> 
+        <label for="textcontraseña">Ingrese su contraseña</label><input type="password" id="textcontraseña">
+        <input type="button" value="Aceptar" id="botonaceptarlogin" onclick="Login()">
+    </header>
+    <nav id="menuprincipal" class="cssmenuprincipal">
+        <p>Menú Principal</p>
+        <ul>
+            <li> <a id="aConsultar" href="javascript:Consultar()" >Consultar</a></li>
+            <li> <a id="aIngresar" href="javascript:Ingresar()" >Ingresar</a> </li>   
+            <li> <a id="aRetirar" href="javascript:Retirar()" >Retirar</a> </li>     
+        </ul>
+    </nav>
+    <section id="scConsulta" class="Consulta"
+        <label for=""> El saldo es </label> <label id="1saldo"></label>
+        <input type="button" value="Cerrar" onclick="CerrarConsulta()">
+    </section>    
+    <section id="scIngreso">
+        <label class="label" for="textValorIngreso">Ingrese el valor</label>
+
+    </section>
+
+ <div id="dvPrueba"></div>   
+   
+
+</body>
+</html>
